@@ -2,6 +2,7 @@ class homePage{
 
     navigateToHomePage(){
        return cy.visit(Cypress.env('url'))
+       
     }
 
 }
